@@ -1,4 +1,4 @@
-package com.example.spring5jokesapp.controllers;
+package com.example.spring5configurationExample.controllers;
 
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
@@ -21,7 +21,7 @@ public class JokeController {
 
     @RequestMapping({"/", ""})
     public String getJoke(Model model) {
-        model.addAttribute("joke", jokeService.getJoke());
+        model.addAttribute("joke", chuckNorrisQuotes.getRandomQuote());
 
         return "index";
     }

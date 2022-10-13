@@ -1,4 +1,4 @@
-package com.example.spring5jokesapp.services;
+package com.example.spring5configurationExample.services;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.stereotype.Service;
